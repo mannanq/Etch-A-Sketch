@@ -6,4 +6,9 @@ $(document).ready(function() {
       $('.container').append('<div class="box"></div>');
     }
   }
+
+  // Then, when user hovers over the element ('this' box, the active selector is added)
+  $('.box').mouseover(function() {
+    $(this).addClass('active');
+  });
 });

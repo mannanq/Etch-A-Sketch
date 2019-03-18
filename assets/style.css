@@ -14,6 +14,7 @@
   border: 1px solid black;
 }
 
-.box:hover {
+.box:hover,
+.box.active {
   background: black;
 }
