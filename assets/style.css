@@ -1,0 +1,19 @@
+.container {
+  /* background: red; */
+  height: 353px;
+  width: 353px;
+}
+
+.box {
+  /* background: blue; */
+  height: 20px;
+  width: 20px;
+  /* margin: 1px; */
+  display: inline-block;
+  float: left;
+  border: 1px solid black;
+}
+
+.box:hover {
+  background: black;
+}
