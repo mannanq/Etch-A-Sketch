@@ -7,8 +7,14 @@ $(document).ready(function() {
     }
   }
 
-  // Then, when user hovers over the element ('this' box, the active selector is added)
+  // Then, when user hovers over the element ('this' box) the active selector is added)
   $('.box').mouseover(function() {
     $(this).addClass('active');
+  });
+
+  // Clear everything
+  document.querySelector('.btn').addEventListener('click', function() {
+    $('.box').removeClass('active');
+    //console.log('clicked');
   });
 });
